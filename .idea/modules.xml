@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/testTask/ui.tests/com.adobe.cq.cloud.testing.ui.cypress.tests.iml" filepath="$PROJECT_DIR$/testTask/ui.tests/com.adobe.cq.cloud.testing.ui.cypress.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/task.iml" filepath="$PROJECT_DIR$/.idea/task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTask/testTask.iml" filepath="$PROJECT_DIR$/testTask/testTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTask/all/testTask.all.iml" filepath="$PROJECT_DIR$/testTask/all/testTask.all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTask/core/testTask.core.iml" filepath="$PROJECT_DIR$/testTask/core/testTask.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTask/dispatcher/testTask.dispatcher.cloud.iml" filepath="$PROJECT_DIR$/testTask/dispatcher/testTask.dispatcher.cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTask/it.tests/testTask.it.tests.iml" filepath="$PROJECT_DIR$/testTask/it.tests/testTask.it.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTask/ui.apps/testTask.ui.apps.iml" filepath="$PROJECT_DIR$/testTask/ui.apps/testTask.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTask/ui.apps.structure/testTask.ui.apps.structure.iml" filepath="$PROJECT_DIR$/testTask/ui.apps.structure/testTask.ui.apps.structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTask/ui.config/testTask.ui.config.iml" filepath="$PROJECT_DIR$/testTask/ui.config/testTask.ui.config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTask/ui.content/testTask.ui.content.iml" filepath="$PROJECT_DIR$/testTask/ui.content/testTask.ui.content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testTask/ui.frontend/testTask.ui.frontend.iml" filepath="$PROJECT_DIR$/testTask/ui.frontend/testTask.ui.frontend.iml" />
+    </modules>
+  </component>
+</project>
