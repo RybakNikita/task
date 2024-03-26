@@ -1,0 +1,21 @@
+<sly data-sly-use.clientLib="/apps/telecolumbus/sightly/templates/clientlib.html"
+     data-sly-call="${clientLib.js @ categories='practice-clientlib'}" />
+<sly data-sly-use.model="com.task.model.AemPracticeModel"></sly>
+<sly data-sly-test.isAuthor="${wcmmode.edit || wcmmode.design}"></sly>
+<sly data-sly-test.isPublish="${wcmmode.preview || wcmmode.disabled}"></sly>
+
+<h1>${model.title}</h1>
+<sly data-sly-test="${isPublish && model.backgroundImage}">
+    <img src="${model.imagePath}">
+</sly>
+<sly data-sly-list.item="${model.navigationItems}">
+
+    <a data-sly-test="${itemList.first}" href="${item.path}"><b>${item.title}</b></a>
+    <a data-sly-test="${!itemList.first && !itemList.last}" href="${item.path}">${item.title}</a>
+    <a data-sly-test="${itemList.last}" href="${item.path}"><i>${item.title}</i></a>
+
+</sly>
+<h2 data-sly-test="${isAuthor}">Author mode</h2><br>
+Page title: ${currentPage.title}<br>
+Page path: ${currentPage.path}
+
